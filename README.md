@@ -61,14 +61,23 @@ https://developers.google.com/youtube/v3/guides/auth/installed-apps
 
 See the example.
 
+On the first run, a URL for OAuth authorization is shown. Open it in a browser and proceed with authorization. When an error occurs trying to connect to localhost, copy the `code=XXX` value from that URL and enter it in the console to finish authorization.
+
 ## Options
 
 See [command_help.md](command_help.md)
+
+## Questions
+
+### Application occurs `invalid_grant` error
+
+- Check your Google client secret json file.
+- Delete `~/.config/lfm2ytm/token.json` and try running the application again.
 
 ## Development
 
 1. Fork this repository.
 2. Chdir and `go mod tidy`
 3. Do implements.
-4. Run `LASTFM_API_KEY=<your lastfm api key> go run *.go [options]`
+4. Run `LASTFM_API_KEY=<your lastfm api key> go run main.go [options]`
 5. Create a pull-request.
