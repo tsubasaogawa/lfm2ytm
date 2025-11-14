@@ -79,7 +79,7 @@ See [command_help.md](command_help.md)
 - Check your Google client secret json file.
 - Delete `~/.config/lfm2ytm/token.json` and try running the application again.
 
-### Application occurs `quotaExceeded` error
+### Application returns `quotaExceeded` error
 
 - Please wait for a minute and retry.
 
