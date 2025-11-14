@@ -74,7 +74,7 @@ See [command_help.md](command_help.md)
 
 ## Questions
 
-### Application occurs `invalid_grant` error
+### Application returns `invalid_grant` error
 
 - Check your Google client secret json file.
 - Delete `~/.config/lfm2ytm/token.json` and try running the application again.
