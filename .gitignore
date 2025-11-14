@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+lfm2ytm
 
 # Test binary, built with `go test -c`
 *.test
@@ -14,5 +15,4 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-oauth.json
-token.json
+*.json
