@@ -63,6 +63,11 @@ See the example.
 
 On the first run, a URL for OAuth authorization is shown. Open it in a browser and proceed with authorization. When an error occurs trying to connect to localhost, copy the `code=XXX` value from that URL and enter it in the console to finish authorization.
 
+> [!NOTE]
+> Example URL: http://localhost/?state=196e5097036cd7f0e6cf372101c26484&code=8/0Ab32j92XDMCT7-5e6aT8w8gTIxx7UnN5EvS4xAJoTxxIIRiBOoVbFexYxxxvV7n-LvXPw&scope=https://www.googleapis.com/auth/youtube
+>
+> Code is: `8/0Ab32j92XDMCT7-5e6aT8w8gTIxx7UnN5EvS4xAJoTxxIIRiBOoVbFexYxxxvV7n-LvXPw`
+
 ## Options
 
 See [command_help.md](command_help.md)
@@ -73,6 +78,10 @@ See [command_help.md](command_help.md)
 
 - Check your Google client secret json file.
 - Delete `~/.config/lfm2ytm/token.json` and try running the application again.
+
+### Application occurs `quotaExceeded` error
+
+- Please wait for a minute and retry.
 
 ## Development
 
